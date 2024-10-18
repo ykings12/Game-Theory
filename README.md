@@ -1,4 +1,4 @@
-# college ID - IIT2021209
+# college ID - IIT2021165
 ## Setup Instructions
    ```bash
    git clone "https://github.com/NBSPRG/game_theory.git"
