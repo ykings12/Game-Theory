@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Center Details</title>
+    <link rel="stylesheet" href="css/center.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 id="center-name">Center Name</h1>
+            <img id="center-image" src="" alt="Center Image">
+        </header>
+        <div class="details">
+            <h2>Details</h2>
+            <p id="center-description">Description of the center.</p>
+            <div class="info">
+                <p><strong>Location:</strong> <span id="center-location">Location</span></p>
+                <p><strong>Contact:</strong> <span id="center-phone">Phone Number</span></p>
+                <p><strong>Email:</strong> <span id="center-email">Email</span></p>
+                <p><strong>Amenities:</strong> <span id="center-amenities">Amenities</span></p>
+                <p><strong>Ratings:</strong> <span id="center-ratings">0</span></p>
+            </div>
+        </div>
+        <div class="sports">
+            <h2>Available Sports and Slots</h2>
+            <div id="sports-list"></div>
+        </div>
+
+        <div id="popupModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" id="closePopup">&times;</span>
+                <h2>Confirm Booking</h2>
+                <p>Please enter your email to confirm the booking:</p>
+                <input type="email" id="emailInput" class="email-input" placeholder="Enter your email" required>
+                <div id="error-message" style="color: red;"></div> <!-- Error message display -->
+                <div class="modal-actions">
+                    <button id="cancelBtn" class="cancel-btn">Cancel</button>
+                    <button id="bookBtn" class="book-btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/center.js"></script>
+    <script>
+        // Email validation logic
+        document.getElementById('bookBtn').addEventListener('click', function() {
+            const emailInput = document.getElementById('emailInput');
+            const errorMessage = document.getElementById('error-message');
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/; // Regex for email validation
+
+            // Clear previous error message
+            errorMessage.innerText = "";
+
+            // Validate email format
+            if (emailPattern.test(emailInput.value)) {
+                // Proceed with the booking process
+                console.log("Valid email:", emailInput.value);
+                // Here you can implement further logic, e.g., sending the email to the server
+            } else {
+                // Show error message for invalid email
+                errorMessage.innerText = "Please enter a valid email address.";
+            }
+        });
+
+        // Modal close functionality
+        document.getElementById('closePopup').addEventListener('click', function() {
+            document.getElementById('popupModal').style.display = 'none';
+        });
+
+        document.getElementById('cancelBtn').addEventListener('click', function() {
+            document.getElementById('popupModal').style.display = 'none';
+        });
+    </script>
+</body>
+</html>

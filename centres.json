@@ -1,0 +1,152 @@
+[
+  {
+      "name": "Indiranagar Sports Complex",
+      "location": "Indiranagar, Bangalore",
+      "image": "http://example.com/images/indiranagar.jpg",
+      "description": "A premier sports complex with multiple courts and facilities.",
+      "contact": {
+          "phone": "+91 98765 43210",
+          "email": "contact@indiranagarsports.com"
+      },
+      "amenities": ["Parking", "Changing Rooms", "Cafeteria"],
+      "openHours": {
+          "open": "06:00 AM",
+          "close": "10:00 PM"
+      },
+      "ratings": 4.5,
+      "sports": [
+          {
+              "name": "Badminton",
+              "courts": 3,
+              "image": "http://example.com/images/badminton.jpg",
+              "slots": [
+                  {"startTime": "06:00 AM", "endTime": "08:00 AM", "isAvailable": true},
+                  {"startTime": "08:00 AM", "endTime": "10:00 AM", "isAvailable": true},
+                  {"startTime": "10:00 AM", "endTime": "12:00 PM", "isAvailable": false},
+                  {"startTime": "12:00 PM", "endTime": "02:00 PM", "isAvailable": true},
+                  {"startTime": "02:00 PM", "endTime": "04:00 PM", "isAvailable": true},
+                  {"startTime": "04:00 PM", "endTime": "06:00 PM", "isAvailable": false},
+                  {"startTime": "06:00 PM", "endTime": "08:00 PM", "isAvailable": true},
+                  {"startTime": "08:00 PM", "endTime": "10:00 PM", "isAvailable": true}
+              ]
+          },
+          {
+              "name": "Squash",
+              "courts": 2,
+              "image": "http://example.com/images/squash.jpg",
+              "slots": [
+                  {"startTime": "06:00 AM", "endTime": "08:00 AM", "isAvailable": true},
+                  {"startTime": "08:00 AM", "endTime": "10:00 AM", "isAvailable": true},
+                  {"startTime": "10:00 AM", "endTime": "12:00 PM", "isAvailable": true},
+                  {"startTime": "12:00 PM", "endTime": "02:00 PM", "isAvailable": false},
+                  {"startTime": "02:00 PM", "endTime": "04:00 PM", "isAvailable": true},
+                  {"startTime": "04:00 PM", "endTime": "06:00 PM", "isAvailable": true},
+                  {"startTime": "06:00 PM", "endTime": "08:00 PM", "isAvailable": true},
+                  {"startTime": "08:00 PM", "endTime": "10:00 PM", "isAvailable": false}
+              ]
+          }
+      ],
+      "createdAt": "2024-10-16T10:00:00Z",
+      "updatedAt": "2024-10-16T10:00:00Z"
+  },
+  {
+      "name": "Koramangala Sports Arena",
+      "location": "Koramangala, Bangalore",
+      "image": "http://example.com/images/koramangala.jpg",
+      "description": "A spacious arena catering to various sports activities.",
+      "contact": {
+          "phone": "+91 98765 43211",
+          "email": "info@koramangalasports.com"
+      },
+      "amenities": ["Parking", "Cafeteria", "Wi-Fi"],
+      "openHours": {
+          "open": "06:00 AM",
+          "close": "10:00 PM"
+      },
+      "ratings": 4.7,
+      "sports": [
+          {
+              "name": "Tennis",
+              "courts": 5,
+              "image": "http://example.com/images/tennis.jpg",
+              "slots": [
+                  {"startTime": "06:00 AM", "endTime": "08:00 AM", "isAvailable": true},
+                  {"startTime": "08:00 AM", "endTime": "10:00 AM", "isAvailable": false},
+                  {"startTime": "10:00 AM", "endTime": "12:00 PM", "isAvailable": true},
+                  {"startTime": "12:00 PM", "endTime": "02:00 PM", "isAvailable": true},
+                  {"startTime": "02:00 PM", "endTime": "04:00 PM", "isAvailable": true},
+                  {"startTime": "04:00 PM", "endTime": "06:00 PM", "isAvailable": false},
+                  {"startTime": "06:00 PM", "endTime": "08:00 PM", "isAvailable": true},
+                  {"startTime": "08:00 PM", "endTime": "10:00 PM", "isAvailable": true}
+              ]
+          },
+          {
+              "name": "Basketball",
+              "courts": 2,
+              "image": "http://example.com/images/basketball.jpg",
+              "slots": [
+                  {"startTime": "06:00 AM", "endTime": "08:00 AM", "isAvailable": true},
+                  {"startTime": "08:00 AM", "endTime": "10:00 AM", "isAvailable": true},
+                  {"startTime": "10:00 AM", "endTime": "12:00 PM", "isAvailable": false},
+                  {"startTime": "12:00 PM", "endTime": "02:00 PM", "isAvailable": true},
+                  {"startTime": "02:00 PM", "endTime": "04:00 PM", "isAvailable": true},
+                  {"startTime": "04:00 PM", "endTime": "06:00 PM", "isAvailable": false},
+                  {"startTime": "06:00 PM", "endTime": "08:00 PM", "isAvailable": true},
+                  {"startTime": "08:00 PM", "endTime": "10:00 PM", "isAvailable": true}
+              ]
+          }
+      ],
+      "createdAt": "2024-10-16T10:00:00Z",
+      "updatedAt": "2024-10-16T10:00:00Z"
+  },
+  {
+      "name": "MG Road Fitness Center",
+      "location": "MG Road, Bangalore",
+      "image": "http://example.com/images/mgroad.jpg",
+      "description": "A fitness center offering a variety of sports and wellness programs.",
+      "contact": {
+          "phone": "+91 98765 43212",
+          "email": "support@mgroadfitness.com"
+      },
+      "amenities": ["Sauna", "Changing Rooms", "Cafeteria"],
+      "openHours": {
+          "open": "06:00 AM",
+          "close": "10:00 PM"
+      },
+      "ratings": 4.6,
+      "sports": [
+          {
+              "name": "Swimming",
+              "courts": 1,
+              "image": "http://example.com/images/swimming.jpg",
+              "slots": [
+                  {"startTime": "06:00 AM", "endTime": "08:00 AM", "isAvailable": true},
+                  {"startTime": "08:00 AM", "endTime": "10:00 AM", "isAvailable": false},
+                  {"startTime": "10:00 AM", "endTime": "12:00 PM", "isAvailable": true},
+                  {"startTime": "12:00 PM", "endTime": "02:00 PM", "isAvailable": true},
+                  {"startTime": "02:00 PM", "endTime": "04:00 PM", "isAvailable": true},
+                  {"startTime": "04:00 PM", "endTime": "06:00 PM", "isAvailable": false},
+                  {"startTime": "06:00 PM", "endTime": "08:00 PM", "isAvailable": true},
+                  {"startTime": "08:00 PM", "endTime": "10:00 PM", "isAvailable": true}
+              ]
+          },
+          {
+              "name": "Football",
+              "courts": 1,
+              "image": "http://example.com/images/football.jpg",
+              "slots": [
+                  {"startTime": "06:00 AM", "endTime": "08:00 AM", "isAvailable": true},
+                  {"startTime": "08:00 AM", "endTime": "10:00 AM", "isAvailable": false},
+                  {"startTime": "10:00 AM", "endTime": "12:00 PM", "isAvailable": true},
+                  {"startTime": "12:00 PM", "endTime": "02:00 PM", "isAvailable": true},
+                  {"startTime": "02:00 PM", "endTime": "04:00 PM", "isAvailable": true},
+                  {"startTime": "04:00 PM", "endTime": "06:00 PM", "isAvailable": false},
+                  {"startTime": "06:00 PM", "endTime": "08:00 PM", "isAvailable": true},
+                  {"startTime": "08:00 PM", "endTime": "10:00 PM", "isAvailable": true}
+              ]
+          }
+      ],
+      "createdAt": "2024-10-16T10:00:00Z",
+      "updatedAt": "2024-10-16T10:00:00Z"
+  }
+]
